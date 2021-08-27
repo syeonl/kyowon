@@ -222,31 +222,6 @@ textarea {
     box-sizing: border-box;
 }
 
-/* input file 공통 */
-.file_wrap { width: 466px; border:2px solid #dddddd; position: relative; display: inline-block; }
-.file_wrap input[type="text"] { height: 40px; background: none; }
-.file_wrap input[type="file"] + label {
-    position: absolute;
-    right:0;
-    top:0;
-    cursor: pointer;
-    width:98px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    color:#009223;
-    font-weight: 500;
-}
-.file_wrap input[type="file"] + label:before {
-    content: '';
-    position: absolute;
-    left:0;
-    top:50%;
-    margin-top:-8px;
-    width:2px;
-    height:16px;
-    background: #e8e8e8;
-}
 
 /* 버튼 공통 스타일 */
 .btn {
@@ -265,8 +240,7 @@ textarea {
 
 
 /* 라벨 공통 */
-.label { display: inline-block; font-size: 16px; padding:5px 38px 6px; background: #5f5f5f; text-align: center; color:#fff; }
-.label_green {background: #00AA3C;}
+.label {display: none; text-indent: -9999px;}
 
 /* 게시판 테이블 공통 */
 .tbl_board_wrap {border-top:1px solid #000;}
